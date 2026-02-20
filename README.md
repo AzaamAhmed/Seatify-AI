@@ -1,0 +1,1 @@
+# Seatify-AI
