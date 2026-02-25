@@ -1,6 +1,6 @@
 <div align="center">
 
-![Seatify AI Banner](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&auto=format&fit=crop&q=80)
+<img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&amp;auto=format&amp;fit=crop&amp;q=80" width="100%" alt="Galle Fort, Sri Lanka — Seatify AI" style="border-radius:12px; margin-bottom:16px;" />
 
 # 🍽️ Seatify AI — Sri Lanka
 
