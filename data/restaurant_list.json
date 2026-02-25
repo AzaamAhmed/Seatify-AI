@@ -1,0 +1,543 @@
+[
+  {
+    "restaurant_id": "r001",
+    "name": "Seatify Galle Fort",
+    "location": {
+      "address": "14 Church Street, Galle Fort, Galle",
+      "landmark": "Inside the Dutch Fort Walls, near the Clock Tower"
+    },
+    "cuisine": ["Sri Lankan", "Seafood"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "23:00",
+      "display": "11:00 AM - 11:00 PM"
+    },
+    "phone": "+94-91-2234567",
+    "restaurant_max_seating_capacity": 60,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r002",
+    "name": "Seatify Unawatuna Beach",
+    "location": {
+      "address": "48 Unawatuna Road, Unawatuna, Galle",
+      "landmark": "Beachfront near Rock Temple"
+    },
+    "cuisine": ["Coastal Sri Lankan", "Seafood"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "22:30",
+      "display": "10:00 AM - 10:30 PM"
+    },
+    "phone": "+94-91-2245678",
+    "restaurant_max_seating_capacity": 50,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r003",
+    "name": "Seatify Colombo Fort",
+    "location": {
+      "address": "32 Chatham Street, Fort, Colombo 01",
+      "landmark": "Near the Old Parliament Building"
+    },
+    "cuisine": ["Ceylonese", "Continental"],
+    "operating_hours": {
+      "open": "12:00",
+      "close": "23:30",
+      "display": "12:00 PM - 11:30 PM"
+    },
+    "phone": "+94-11-2334567",
+    "restaurant_max_seating_capacity": 100,
+    "max_booking_party_size": 15,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r004",
+    "name": "Seatify Kollupitiya",
+    "location": {
+      "address": "78 Galle Road, Kollupitiya, Colombo 03",
+      "landmark": "Opposite Majestic City Mall"
+    },
+    "cuisine": ["Sri Lankan", "Indian"],
+    "operating_hours": {
+      "open": "07:00",
+      "close": "22:30",
+      "display": "7:00 AM - 10:30 PM"
+    },
+    "phone": "+94-11-2345678",
+    "restaurant_max_seating_capacity": 75,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r005",
+    "name": "Seatify Kandy City",
+    "location": {
+      "address": "25 Dalada Veediya, Kandy",
+      "landmark": "Near Temple of the Sacred Tooth Relic"
+    },
+    "cuisine": ["Kandyan Cuisine", "Sri Lankan"],
+    "operating_hours": {
+      "open": "08:00",
+      "close": "22:00",
+      "display": "8:00 AM - 10:00 PM"
+    },
+    "phone": "+94-81-2223456",
+    "restaurant_max_seating_capacity": 80,
+    "max_booking_party_size": 15,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r006",
+    "name": "Seatify Peradeniya Gardens",
+    "location": {
+      "address": "12 Peradeniya Road, Peradeniya, Kandy",
+      "landmark": "Near Royal Botanic Gardens Gate"
+    },
+    "cuisine": ["Rice & Curry", "Vegetarian"],
+    "operating_hours": {
+      "open": "09:00",
+      "close": "21:00",
+      "display": "9:00 AM - 9:00 PM"
+    },
+    "phone": "+94-81-2387654",
+    "restaurant_max_seating_capacity": 40,
+    "max_booking_party_size": 8,
+    "operating_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r007",
+    "name": "Seatify Negombo Beach",
+    "location": {
+      "address": "56 Lewis Place, Negombo Beach",
+      "landmark": "Along the Beach Road, near the Dutch Canal"
+    },
+    "cuisine": ["Seafood", "Coastal Sri Lankan"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "23:00",
+      "display": "10:00 AM - 11:00 PM"
+    },
+    "phone": "+94-31-2223456",
+    "restaurant_max_seating_capacity": 70,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r008",
+    "name": "Seatify Ella Rock",
+    "location": {
+      "address": "23 Ella-Wellawaya Road, Ella, Badulla",
+      "landmark": "Near Ella Rock Trail Head"
+    },
+    "cuisine": ["Hill Country Cuisine", "Organic"],
+    "operating_hours": {
+      "open": "08:00",
+      "close": "21:00",
+      "display": "8:00 AM - 9:00 PM"
+    },
+    "phone": "+94-57-2287654",
+    "restaurant_max_seating_capacity": 35,
+    "max_booking_party_size": 6,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r009",
+    "name": "Seatify Nuwara Eliya",
+    "location": {
+      "address": "9 Grand Hotel Road, Nuwara Eliya",
+      "landmark": "Near the Grand Hotel and Victoria Park"
+    },
+    "cuisine": ["Continental", "Ceylonese Tea Cuisine"],
+    "operating_hours": {
+      "open": "07:30",
+      "close": "22:00",
+      "display": "7:30 AM - 10:00 PM"
+    },
+    "phone": "+94-52-2222567",
+    "restaurant_max_seating_capacity": 55,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r010",
+    "name": "Seatify Mirissa Bay",
+    "location": {
+      "address": "7 Mirissa Beach Road, Mirissa, Matara",
+      "landmark": "Beachfront near Parrot Rock"
+    },
+    "cuisine": ["Seafood", "Grills"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "23:30",
+      "display": "11:00 AM - 11:30 PM"
+    },
+    "phone": "+94-41-2256789",
+    "restaurant_max_seating_capacity": 45,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r011",
+    "name": "Seatify Hikkaduwa Reef",
+    "location": {
+      "address": "88 Galle Road, Hikkaduwa",
+      "landmark": "Opposite the Coral Reef Sanctuary"
+    },
+    "cuisine": ["Seafood", "Beach Fusion"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "23:00",
+      "display": "10:00 AM - 11:00 PM"
+    },
+    "phone": "+94-91-2277890",
+    "restaurant_max_seating_capacity": 60,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r012",
+    "name": "Seatify Sigiriya View",
+    "location": {
+      "address": "5 Sigiriya Village Road, Sigiriya, Dambulla",
+      "landmark": "Near the Sigiriya Rock Fortress Entrance"
+    },
+    "cuisine": ["Sri Lankan", "Rice & Curry"],
+    "operating_hours": {
+      "open": "07:00",
+      "close": "21:30",
+      "display": "7:00 AM - 9:30 PM"
+    },
+    "phone": "+94-66-2286789",
+    "restaurant_max_seating_capacity": 50,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r013",
+    "name": "Seatify Dambulla Cave",
+    "location": {
+      "address": "88 Kandy-Jaffna Highway, Dambulla",
+      "landmark": "Near the Golden Temple and Cave Complex"
+    },
+    "cuisine": ["Sri Lankan", "Vegetarian"],
+    "operating_hours": {
+      "open": "08:00",
+      "close": "21:00",
+      "display": "8:00 AM - 9:00 PM"
+    },
+    "phone": "+94-66-2284567",
+    "restaurant_max_seating_capacity": 55,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r014",
+    "name": "Seatify Trincomalee Harbour",
+    "location": {
+      "address": "19 Inner Harbour Road, Trincomalee",
+      "landmark": "Near Fort Frederick and Koneswaram Temple"
+    },
+    "cuisine": ["Tamil Sri Lankan", "Seafood"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "22:30",
+      "display": "11:00 AM - 10:30 PM"
+    },
+    "phone": "+94-26-2222345",
+    "restaurant_max_seating_capacity": 65,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r015",
+    "name": "Seatify Jaffna Heritage",
+    "location": {
+      "address": "44 KKS Road, Jaffna",
+      "landmark": "Near Nallur Kandaswamy Temple"
+    },
+    "cuisine": ["Jaffna Tamil", "North Sri Lankan"],
+    "operating_hours": {
+      "open": "07:00",
+      "close": "22:00",
+      "display": "7:00 AM - 10:00 PM"
+    },
+    "phone": "+94-21-2223456",
+    "restaurant_max_seating_capacity": 60,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r016",
+    "name": "Seatify Bentota Lagoon",
+    "location": {
+      "address": "21 River Avenue, Bentota",
+      "landmark": "By the Bentota Lagoon and Water Sports Hub"
+    },
+    "cuisine": ["Seafood", "Sri Lankan"],
+    "operating_hours": {
+      "open": "09:00",
+      "close": "22:30",
+      "display": "9:00 AM - 10:30 PM"
+    },
+    "phone": "+94-34-2275678",
+    "restaurant_max_seating_capacity": 55,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r017",
+    "name": "Seatify Beruwala Spice",
+    "location": {
+      "address": "67 Moragalla Beach Road, Beruwala",
+      "landmark": "Near the Beruwala Lighthouse and Fish Market"
+    },
+    "cuisine": ["Malay Sri Lankan", "Spice Cuisine"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "23:00",
+      "display": "11:00 AM - 11:00 PM"
+    },
+    "phone": "+94-34-2276789",
+    "restaurant_max_seating_capacity": 50,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r018",
+    "name": "Seatify Arugam Bay Surf",
+    "location": {
+      "address": "3 Main Point Road, Arugam Bay, Ampara",
+      "landmark": "Near the Main Surf Break"
+    },
+    "cuisine": ["Beach BBQ", "Seafood"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "23:30",
+      "display": "10:00 AM - 11:30 PM"
+    },
+    "phone": "+94-63-2248765",
+    "restaurant_max_seating_capacity": 40,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r019",
+    "name": "Seatify Polonnaruwa Ruins",
+    "location": {
+      "address": "12 Ancient City Road, Polonnaruwa",
+      "landmark": "Near the Royal Palace Ruins and Gal Vihara"
+    },
+    "cuisine": ["Sri Lankan", "Ayurvedic Cuisine"],
+    "operating_hours": {
+      "open": "07:30",
+      "close": "21:00",
+      "display": "7:30 AM - 9:00 PM"
+    },
+    "phone": "+94-27-2222987",
+    "restaurant_max_seating_capacity": 45,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r020",
+    "name": "Seatify Anuradhapura Sacred",
+    "location": {
+      "address": "33 Sacred City Road, Anuradhapura",
+      "landmark": "Near Sri Maha Bodhi and Ruwanwelisaya Stupa"
+    },
+    "cuisine": ["Pure Vegetarian", "Ayurvedic"],
+    "operating_hours": {
+      "open": "07:00",
+      "close": "21:00",
+      "display": "7:00 AM - 9:00 PM"
+    },
+    "phone": "+94-25-2224567",
+    "restaurant_max_seating_capacity": 40,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r021",
+    "name": "Seatify Galle Face Green",
+    "location": {
+      "address": "2 Galle Face Terrace, Colombo 03",
+      "landmark": "By Galle Face Green Ocean Promenade"
+    },
+    "cuisine": ["Sri Lankan Street Food", "Hoppers"],
+    "operating_hours": {
+      "open": "12:00",
+      "close": "24:00",
+      "display": "12:00 PM - 12:00 AM"
+    },
+    "phone": "+94-11-2356789",
+    "restaurant_max_seating_capacity": 80,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r022",
+    "name": "Seatify Bambalapitiya",
+    "location": {
+      "address": "115 Havelock Road, Bambalapitiya, Colombo 04",
+      "landmark": "Near Bambalapitiya Train Station"
+    },
+    "cuisine": ["Cafe", "Fusion"],
+    "operating_hours": {
+      "open": "08:30",
+      "close": "22:30",
+      "display": "8:30 AM - 10:30 PM"
+    },
+    "phone": "+94-11-2367890",
+    "restaurant_max_seating_capacity": 35,
+    "max_booking_party_size": 6,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r023",
+    "name": "Seatify Batticaloa Lagoon",
+    "location": {
+      "address": "27 Bar Road, Batticaloa",
+      "landmark": "On the Batticaloa Lagoon Causeway"
+    },
+    "cuisine": ["Tamil Sri Lankan", "Seafood"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "22:00",
+      "display": "11:00 AM - 10:00 PM"
+    },
+    "phone": "+94-65-2223456",
+    "restaurant_max_seating_capacity": 50,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r024",
+    "name": "Seatify Matara Seaside",
+    "location": {
+      "address": "18 Beach Road, Matara",
+      "landmark": "Near Matara Fort and Star Fort"
+    },
+    "cuisine": ["Coastal Sri Lankan", "Seafood"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "22:30",
+      "display": "10:00 AM - 10:30 PM"
+    },
+    "phone": "+94-41-2224567",
+    "restaurant_max_seating_capacity": 55,
+    "max_booking_party_size": 10,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r025",
+    "name": "Seatify Tangalle Turtle",
+    "location": {
+      "address": "5 Tangalle Bay Road, Tangalle",
+      "landmark": "Near Tangalle Turtle Beach"
+    },
+    "cuisine": ["Seafood", "Sri Lankan"],
+    "operating_hours": {
+      "open": "11:30",
+      "close": "23:00",
+      "display": "11:30 AM - 11:00 PM"
+    },
+    "phone": "+94-47-2241234",
+    "restaurant_max_seating_capacity": 45,
+    "max_booking_party_size": 8,
+    "operating_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r026",
+    "name": "Seatify Weligama Surf",
+    "location": {
+      "address": "99 Bay Road, Weligama, Matara",
+      "landmark": "Facing Weligama Bay near Taprobane Island"
+    },
+    "cuisine": ["Seafood", "Beach Fusion"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "23:00",
+      "display": "10:00 AM - 11:00 PM"
+    },
+    "phone": "+94-41-2253456",
+    "restaurant_max_seating_capacity": 50,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r027",
+    "name": "Seatify Haputale Heights",
+    "location": {
+      "address": "7 Thangamale Road, Haputale",
+      "landmark": "Near Lipton's Seat Tea Viewpoint"
+    },
+    "cuisine": ["Tea Garden Cuisine", "Sri Lankan"],
+    "operating_hours": {
+      "open": "08:00",
+      "close": "21:00",
+      "display": "8:00 AM - 9:00 PM"
+    },
+    "phone": "+94-57-2268765",
+    "restaurant_max_seating_capacity": 30,
+    "max_booking_party_size": 6,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r028",
+    "name": "Seatify Badulla Hill",
+    "location": {
+      "address": "44 Badulla Main Street, Badulla",
+      "landmark": "Near Dunhinda Falls Road and St. Mark's Church"
+    },
+    "cuisine": ["Sri Lankan", "Upcountry Cuisine"],
+    "operating_hours": {
+      "open": "07:30",
+      "close": "21:30",
+      "display": "7:30 AM - 9:30 PM"
+    },
+    "phone": "+94-55-2221234",
+    "restaurant_max_seating_capacity": 45,
+    "max_booking_party_size": 8,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  },
+  {
+    "restaurant_id": "r029",
+    "name": "Seatify Kalpitiya Breeze",
+    "location": {
+      "address": "3 Kalpitiya Beach Road, Kalpitiya, Puttalam",
+      "landmark": "Near Kalpitiya Lagoon and Dolphin Watching Point"
+    },
+    "cuisine": ["Seafood", "Coastal Sri Lankan"],
+    "operating_hours": {
+      "open": "10:00",
+      "close": "22:00",
+      "display": "10:00 AM - 10:00 PM"
+    },
+    "phone": "+94-32-2261234",
+    "restaurant_max_seating_capacity": 35,
+    "max_booking_party_size": 6,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  },
+  {
+    "restaurant_id": "r030",
+    "name": "Seatify Mount Lavinia",
+    "location": {
+      "address": "100 Hotel Road, Mount Lavinia, Colombo",
+      "landmark": "By Mount Lavinia Beach, near the Historic Hotel"
+    },
+    "cuisine": ["Fine Dining", "International"],
+    "operating_hours": {
+      "open": "11:00",
+      "close": "24:00",
+      "display": "11:00 AM - 12:00 AM"
+    },
+    "phone": "+94-11-2717653",
+    "restaurant_max_seating_capacity": 80,
+    "max_booking_party_size": 12,
+    "operating_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  }
+]
+
