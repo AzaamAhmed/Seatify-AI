@@ -21,7 +21,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-logger = logging.getLogger('goodfoods.api')
+logger = logging.getLogger('seatify.api')
 
 #Global Variables
 BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
